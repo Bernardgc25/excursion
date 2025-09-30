@@ -110,7 +110,7 @@ body{
     }
 }
 
-.container-banner{
+.container-video{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +120,3 @@ body{
     background-color: pink;
 }
 
-.container-banner video {
-    position: absolute;
-    top: 12rem;
-}
