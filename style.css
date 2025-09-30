@@ -8,7 +8,9 @@
 }
 
 body{
-    background-color: lightsalmon
+    background-color: lightsalmon;
+    height: auto;
+    width: auto;
 }
 
 .container-header{
@@ -106,4 +108,19 @@ body{
     .container-header h4 {
         font-size: 0.8rem;
     }
+}
+
+.container-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    width: 97%; 
+    margin: auto;
+    background-color: pink;
+}
+
+.container-banner video {
+    position: absolute;
+    top: 12rem;
 }
