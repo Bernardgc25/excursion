@@ -8,9 +8,9 @@
 }
 
 body{
-    background-color: lightsalmon;
     height: auto;
     width: auto;
+    background-color: black;
 }
 
 /*Header Section*/
@@ -18,8 +18,8 @@ body{
     text-align: center;
     line-height: 1.8;
     height: 10rem;
-    width: 100%;
-    background-color: black;
+    width: 97%;
+    margin: auto;
 }
 
 .container-header h1{
@@ -48,12 +48,10 @@ body{
     height: 45rem;
     width: 97%; 
     margin: auto;
-    background-color: pink;
 }
 
 /*Banner Section*/
 .container-banner{
-    background-color: lightblue;
     margin: auto;
     width: 97%; 
 }
@@ -90,14 +88,13 @@ body{
     
 }
 
-/*Footer-Section*/
+/*Content-Section*/
 .container-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    background-color: green;
     width: 97%;
     margin: auto;
     gap: 1rem;
