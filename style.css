@@ -36,9 +36,6 @@ body{
     color: aquamarine
 }
 
-
-
-
 /*Video Section*/
 .container-video{
     display: flex;
@@ -114,4 +111,160 @@ body{
     font-size: 1rem;
     text-decoration: underline;
     color: aquamarine;
+}
+
+
+/* Responsive Styles */
+
+/* For 1440px and above (Desktop Large) */
+@media screen and (min-width: 1440px) {
+    .container-header {
+        height: 12rem;
+    }
+    
+    .container-header h1 {
+        font-size: 3.5rem;
+    }
+    
+    .container-header h4 {
+        font-size: 1.2rem;
+    }
+    
+    .container-video {
+        height: 50rem;
+    }
+    
+    .container-banner h1 {
+        font-size: 3rem;
+    }
+    
+    .container-banner h4 {
+        font-size: 1.5rem;
+    }
+    
+    .container-content h1 {
+        font-size: 3rem;
+    }
+    
+    .container-content h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* For 1024px to 1439px (Tablet Landscape / Small Desktop) */
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+    .container-header {
+        height: 9rem;
+    }
+    
+    .container-header h1 {
+        font-size: 2.8rem;
+    }
+    
+    .container-video {
+        height: 40rem;
+    }
+    
+    .container-banner h1 {
+        font-size: 2.3rem;
+        margin-top: 2.5rem;
+    }
+    
+    .container-banner h4 {
+        font-size: 1.2rem;
+    }
+    
+    .container-content h1 {
+        font-size: 2.3rem;
+    }
+    
+    .camp-image,
+    .phone-image {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+/* For 600px and below (Mobile) */
+@media screen and (max-width: 600px) {
+    .container-header {
+        height: 8rem;
+        width: 95%;
+    }
+    
+    .container-header h1 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+    
+    .container-header h4 {
+        font-size: 0.9rem;
+    }
+    
+    .container-video {
+        height: 25rem;
+        width: 95%;
+    }
+    
+    .container-banner {
+        width: 95%;
+    }
+    
+    .container-banner h1 {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        line-height: 1.4;
+    }
+    
+    .container-banner h4 {
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        line-height: 1.4;
+        padding: 0 1rem;
+    }
+    
+    .container-content {
+        width: 95%;
+        gap: 0.8rem;
+    }
+    
+    .container-content h1 {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+    
+    .container-content h4 {
+        font-size: 0.9rem;
+    }
+    
+    /* Ensure images are responsive on mobile */
+    .camp-image,
+    .phone-image {
+        max-width: 95%;
+        height: auto;
+    }
+    
+    /* Video responsiveness */
+    .container-video video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Additional breakpoint for very small screens */
+@media screen and (max-width: 375px) {
+    .container-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container-banner h1,
+    .container-content h1 {
+        font-size: 1.4rem;
+    }
+    
+    .container-video {
+        height: 20rem;
+    }
 }
