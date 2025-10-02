@@ -13,6 +13,7 @@ body{
     width: auto;
 }
 
+/*Header Section*/
 .container-header{
     text-align: center;
     line-height: 1.8;
@@ -35,81 +36,10 @@ body{
     color: aquamarine
 }
 
-/* Desktop - 1440px and above */
-@media screen and (min-width: 1440px) {
-    .container-header {
-        height: 12rem;
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .container-header h1 {
-        font-size: 4rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .container-header h4 {
-        font-size: 1.3rem;
-    }
-}
 
-/* Tablet - 1024px to 1439px */
-@media screen and (max-width: 1439px) and (min-width: 1024px) {
-    .container-header {
-        height: 9rem;
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .container-header h1 {
-        font-size: 2.5rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .container-header h4 {
-        font-size: 1.1rem;
-    }
-}
 
-/* Mobile - 600px and below */
-@media screen and (max-width: 600px) {
-    .container-header {
-        height: 10rem;
-        padding: 1rem;
-        line-height: 1.5;
-    }
-    
-    .container-header h1 {
-        font-size: 2rem;
-        margin-bottom: 0.3rem;
-    }
-    
-    .container-header h4 {
-        font-size: 0.9rem;
-    }
-}
 
-/* Additional responsive behavior for very small screens */
-@media screen and (max-width: 400px) {
-    .container-header {
-        height: 8rem;
-        padding: 0.8rem;
-    }
-    
-    .container-header h1 {
-        font-size: 1.7rem;
-    }
-    
-    .container-header h4 {
-        font-size: 0.8rem;
-    }
-}
-
+/*Video Section*/
 .container-video{
     display: flex;
     justify-content: center;
@@ -120,3 +50,41 @@ body{
     background-color: pink;
 }
 
+/*Banner Section*/
+.container-banner{
+    background-color: lightblue;
+    margin: auto;
+    width: 97%; 
+}
+
+.container-banner h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 2.625rem;
+    margin-top: 3rem;
+    color: white;
+}
+
+.container-banner h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1.313rem;
+    margin-top: 1rem;
+    color: grey;
+}
+
+.container-banner .camp-image{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+.container-banner .phone-image{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
